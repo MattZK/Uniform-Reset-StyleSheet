@@ -2,9 +2,8 @@
 //
 // Name: Reset Stylesheet
 // Author: Matthias Willemsen
-// Portfolio: https://mattwill.be
 // Licence: MIT
-// Version: 1.3#05FEB2018
+// Version: 1.4#02MARCH2018
 // -- -- -- -- -- -- -- -- -- -- -- --
 // Document: User Agent Reset Stylesheet [SCSS] - *.html, *.php, *.hbs, *.vue
 // Intended domain: Any
@@ -281,6 +280,10 @@ canvas {
 
 template {
   display: none;
+}
+
+ul {
+  list-style: none;
 }
 
 [hidden] {
